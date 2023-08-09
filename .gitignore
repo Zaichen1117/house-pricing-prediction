@@ -27,6 +27,9 @@ share/python-wheels/
 *.egg
 MANIFEST
 .DS_Store
+.vscode 
+.git
+.gitignore 
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
