@@ -15,10 +15,10 @@ Photo by <a href=" https://unsplash.com/@adrienolichon">Adrien Olichon</a> on <a
 - The primary performance metric will be r2, combined with Root Mean Square Error (RSME) and Maximum Absolute Error (MAE) 
 - We aim for a model with an r2 of at least 0.7.
 
-**How would we solve the problem manually**
-One can derive the price of a given house by comparing the price with other similar houses, e.g., on [pararius.nl](https://www.pararius.nl).
+**How would we solve the problem manually:**
+- One can derive the price of a given house by comparing the price with other similar houses, e.g., on [pararius.nl](https://www.pararius.nl).
 
-**List assumptions coming from research questions.**
+**List assumptions coming from research questions:**
 - the bigger the area of a house, the higher the cost of a house
-- the bigger number of rooms, the higher the cost of a house
+- the bigger the number of rooms, the higher the cost of a house
 - a closer location to the city centre would lead to higher housing costs.
