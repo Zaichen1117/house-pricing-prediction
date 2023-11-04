@@ -1,4 +1,4 @@
-# Machine Learning Workflow: A regression Case Study
+# Machine Learning Workflow: Regression use case
 
 **Project:** [Amsterdam House Price Prediction](https://www.kaggle.com/datasets/thomasnibb/amsterdam-house-price-prediction) 
 
