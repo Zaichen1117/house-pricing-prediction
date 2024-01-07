@@ -12,7 +12,8 @@ import logging
 
 # Check if the data is normally distributed
 def normal_check(data: pd.DataFrame) -> pd.DataFrame:
-    """Compare the distribution of numeric variables to a normal distribution using the Kolmogrov-Smirnov test.
+    """Compare the distribution of numeric variables to a normal distribution using the Kolmogrov-Smirnov test,
+    where null hypothesis is that the data is normally distributed.
     Wrapper for `scipy.stats.kstest`: the empircal data is compared to a normally distributed variable with the
     same mean and standard deviation. 
     A significant result (p < 0.05) in the goodness of fit test means that the data is not normally distributed.
@@ -48,6 +49,7 @@ def normal_check(data: pd.DataFrame) -> pd.DataFrame:
     # create a label that indicates whether a feature has a normal distribution or not
     df_normality_check = pd.DataFrame(df_normality_check).reset_index()
     df_normality_check.columns = ["feature", "p-value"]
+    df_normality_check["p-value"]=df_normality_check["p-value"].round(3)
     df_normality_check["normality"] = df_normality_check["p-value"] >= 0.05
 
     return df_normality_check
