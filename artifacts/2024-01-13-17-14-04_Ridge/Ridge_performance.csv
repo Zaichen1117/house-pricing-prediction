@@ -1,0 +1,6 @@
+model,metrics,in-sample,out-of-sample,Difference (%),Description
+Ridge,r-squared,0.84,0.777,-8.1081081081081,Coefficient of Determination
+Ridge,explained variance,0.841,0.783,-7.4074074074074,Explained Variance Score
+Ridge,RMSE,127800.591,160521.179,20.383969395091476,Root Mean Squared Error (RMSE)
+Ridge,MAE,76344.93,93887.806,18.6849355069603,Mean Absolute Error (MAE)
+Ridge,max error,942098.599,1031360.528,8.6547745988588,The maximum residual error

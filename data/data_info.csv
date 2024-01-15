@@ -1,0 +1,8 @@
+,data_type
+Price,continuous
+Address,nominal
+Zip,nominal
+Area,continuous
+Room,discrete
+Lon,continuous
+Lat,continuous
