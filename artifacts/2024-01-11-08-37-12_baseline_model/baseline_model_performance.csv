@@ -1,0 +1,6 @@
+model,metrics,in-sample,out-of-sample,Difference (%),Description
+OLS (<2M),r-squared,0.786,0.716,-9.77653631284917,Coefficient of Determination
+OLS (<2M),explained variance,0.789,0.729,-8.230452674897126,Explained Variance Score
+OLS (<2M),RMSE,147571.708,181023.072,18.479061055819436,Root Mean Squared Error (RMSE)
+OLS (<2M),MAE,91023.514,111734.697,18.536035408947324,Mean Absolute Error (MAE)
+OLS (<2M),max error,897621.898,989269.06,9.264129012586324,The maximum residual error

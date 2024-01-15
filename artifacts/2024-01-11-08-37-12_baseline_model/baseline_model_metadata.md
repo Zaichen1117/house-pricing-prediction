@@ -9,11 +9,11 @@ datasets:
 - data/data_train_processed.parquet
 - data/data_val_processed.parquet
 model: 
-- 'ridge regression'
+- 'linear regression'
 metrics:
 - 'r-squared'
 features:
-- ['log(Area)', 'log(Room)', 'log(AR-ratio)', 'Manhattan_distance', 'Region', 'Location']
+- ['log(Area)', 'Manhattan_distance']
 target:
 - log(Price)
 additional_information: 
